@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
-import { Scroll, Swords, UserCircle, ChevronRight } from 'lucide-react';
+import { UserCircle, ChevronRight } from 'lucide-react';
 
 const LoginForm = ({ onSubmit }) => {
   const [formData, setFormData] = useState({
